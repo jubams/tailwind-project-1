@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Graphic Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <script type="module" src="/src/main.js"></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="flex flex-r justify-between items-center sticky top-0 bg-white mb-3 pt-8 pb-4 mx-20">
+        <div>
+            <!-- mouse pointer   -->
+            <h1 class="class= font-semibold text-4xl font-source cursor-pointer text-trendyol ">trendyol</h1>
+        </div>
+        <div class="relative w-[600px]">
+            <input type="text" placeholder="Aradığınız ürün, kategori veya markayı yazınız"
+                class="border border-none bg-[#F3F3F3] rounded-md p-2 pr-10 w-full focus:outline-none focus:ring-2 focus:ring-orange-500" />
+            <i
+                class="fa-solid fa-magnifying-glass absolute right-3 top-1/2 transform -translate-y-1/2 text-orange-500 text-lg"></i>
+        </div>
+
+
+        <div class="flex justify-between items-center gap-8  ">
+            <div class="flex justify-between items-center gap-2 text-trendyol group  cursor-pointer">
+                <i class="fa-regular fa-user group-hover:text-orange-500"></i>
+                <p class="group-hover:text-orange-500">Login</p>
+            </div>
+            <div class="flex justify-between items-center gap-2 text-trendyol group  cursor-pointer">
+                <i class="fa-regular fa-heart group-hover:text-orange-500"></i>
+                <p class="group-hover:text-orange-500">Favoriler</p>
+            </div>
+            <div class="flex justify-between items-center gap-2 text-trendyol group  cursor-pointer">
+                <i class="fa-solid fa-shopping-cart group-hover:text-orange-500"></i>
+                <p class="group-hover:text-orange-500">Sepetim</p>
+            </div>
+        </div>
+    </header>
+    <!-- main section  -->
+    <main class="mx-20">
+        <!-- nav bar -->
+        <nav class="flex flex-r justify-between items-center text-[12.5px] text-trendyol font-[500] border-b border-gray-200 pb-4">
+            <div class="flex flex-r justify-between items-center gap-2">
+                <!-- three line icon -->
+                <i class="fa-solid fa-bars"></i>
+                <p>Kategoriler</p>
+            </div>
+            <ul class="flex flex-r justify-between items-center gap-8">
+                <li class="cursor-pointer hover:text-orange-500">Kadın</li>
+                <li class="cursor-pointer hover:text-orange-500">Erkek</li>
+                <li class="cursor-pointer hover:text-orange-500">Anne & Çocuk</li>
+                <li class="cursor-pointer hover:text-orange-500">Ev & Yaşam</li>
+                <li class="cursor-pointer hover:text-orange-500">Süpermarket</li>
+                <li class="cursor-pointer hover:text-orange-500">Kozmetik</li>
+                <li class="cursor-pointer hover:text-orange-500">Ayakkabı & Çanta</li>
+                <li class="cursor-pointer hover:text-orange-500">Elektronik</li>
+                <li class="flex items-center gap-1 cursor-pointer hover:text-orange-500 group">
+                    Çok Satanlar
+                    <span class="bg-red-600 text-white text-xs px-2 py-0.5 rounded-full group-hover:bg-orange-500">Yeni</span>
+                </li>
+                <li class="flex items-center gap-1 cursor-pointer hover:text-orange-500 group  ">
+                    Flaş Ürünler
+                    <span class="bg-red-600 text-white text-xs px-2 py-0.5 rounded-full group-hover:bg-orange-500">Yeni</span>
+                </li>
+            </ul>
+        </nav>
+        <!-- main section  -->
+        <section>
+            <div class="flex flex-r justify-between items-center gap-4 mt-6 mb-8 px-4">
+                <div class="group">
+                    <img src="src/images/1.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">Yemek</p>
+                </div>
+                <div class="group">
+                    <img src="src/images/2.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">Ürünler</p>
+                </div>
+                <div class="group">
+                    <img src="src/images/3.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">Sen De Al!</p>
+                </div>
+                <div class="group">
+                    <img src="src/images/4.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">Avantajlı</p>
+                </div>
+                <div class="group">
+                    <img src="src/images/5.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">İndirim</p>
+                </div>
+                <div class="group">
+                    <img src="src/images/6.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">Krediler</p>
+                </div>
+                <div class="group">
+                    <img src="src/images/7.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">Kredi Kartı</p>
+                </div>
+                <div class="group">
+                    <img src="src/images/8.webp" alt="" class="img-trendyol mb-2 group-hover:border-2 group-hover:border-orange-500 cursor-pointer rounded-full">
+                    <p class="text-center font-semibold text-xs group-hover:text-orange-500 cursor-pointer">Yeni Gelen</p>
+                </div>
+            </div>
+            <div class="flex flex-r justify-evenly items-center gap-4 my-6">
+                <div>
+                    <img src="src/images/9.webp " alt="" class=" mb-2 cursor-pointer">
+                </div>
+                <div>
+                    <img src="src/images/10.webp" alt="" class=" mb-2 cursor-pointer">
+                </div>
+                <div>
+                    <img src="src/images/11.webp" alt="" class=" mb-2 cursor-pointer">
+                </div>
+            </div>
+            <div class="bg-gradient-to-b from-[#E7E7E7] to-[#FFFFFF] h-[500px] rounded-lg p-3 mb-6">
+                <div class="flex justify-between items-center px-2">
+                    <h3 class="text-lg font-semibold text-trendyol font-sans" >Popüler Ürünler</h3>
+                    <div class="flex items-center gap-2 hover:bg-gray-300 rounded-3xl px-3 py-2">
+                    <p class=" text-trendyol cursor-pointer font-bold text-md">Tümünü Gör</p>
+                    <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="flex overflow-x-auto gap-4 mt-6 pb-4 scrollbar-hide">
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[340px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[340px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[340px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[340px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[340px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[340px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[340px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="h-[511px] bg-cover bg-no-repeat rounded-lg p-3 mb-3" style="background-image: url('https://cdn.dsmcdn.com/homepage/prod/2025-03-18/1f729f32-7fcd-4698-a706-6ddb658b1240.webp')">
+                <div class="flex justify-between items-center px-2">
+                    <div class="flex items-center gap-2">
+                        <i class="fa-solid fa-fire text-white text-2xl"></i>
+                        <h3 class="font-semibold text-white text-2xl font-sans" >  Flaş Ürünler</h3>
+                        <p class="text-black text-md bg-white rounded-md px-2 py-1 font-semibold">00</p>
+                        <p class="text-white text-2xl">:</p>
+                        <p class="text-black text-md bg-white rounded-md px-2 py-1 font-semibold">00</p>
+                        <p class="text-white text-2xl">:</p>
+                        <p class="text-black text-md bg-white rounded-md px-2 py-1 font-semibold">00</p>     
+                    </div>
+                    
+                    <div class="flex items-center gap-2 hover:bg-white/20 rounded-3xl px-3 py-2">
+                    <p class="cursor-pointer font-bold text-md text-white">Tümünü Gör</p>
+                    <i class="fa-solid fa-arrow-right text-white"></i>
+                    </div>
+                </div>
+                <div class="flex overflow-x-auto gap-4 mt-6 pb-4 scrollbar-hide">
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+                    <div class="bg-white rounded-lg p-4 w-[220px] h-[412px] border border-gray-200 cursor-pointer flex flex-col justify-between hover:shadow-lg transition-shadow flex-shrink-0">
+                        <div class="flex justify-center">
+                            <img src="src/images/12.webp" alt="" class="w-[180px] h-[180px] object-contain">
+                        </div>
+                        <div class="space-y-1">
+                            <p class="text-sm font-medium line-clamp-2 text-gray-500"> <span class="text-xs text-black">Santamarina</span> Kadın Esten Siyah Rugan Klasik Topuklu Ayakkabı</p>
+                        </div>
+                        <div class="flex items-center gap-1">
+                            <span class="text-sm font-medium">4.3</span>
+                            <div class="flex text-yellow-400">
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                                <i class="fa-solid fa-star text-sm"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="text-lg font-bold text-trendyol">129,90 TL</p>
+                        </div>
+                        <div class="flex items-center gap-2 text-orange-500">
+                            <i class="fa-solid fa-tag"></i>
+                            <p class="text-sm">Kupon Fırsatı</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="flex justify-between items-center gap-4 h-[250px] mb-3">
+                <div>
+                    <img src="src/images/13.webp" alt="" class="rounded-lg h-[187px] cursor-pointer hover:scale-102 transition-all duration-900">
+                </div>
+                <div>
+                    <img src="src/images/14.webp" alt="" class="rounded-lg h-[187px] cursor-pointer hover:scale-102 transition-all duration-900">
+                </div>
+                <div>
+                    <img src="src/images/15.webp" alt="" class="rounded-lg h-[187px] cursor-pointer hover:scale-102 transition-all duration-900">
+                </div>
+            </div>
+            
+            <h3 class="text-2xl font-semibold text-trendyol mb-3">Popüler Kategoriler</h3>
+            <div class="flex justify-between items-center gap-4  mb-3">
+                <div>
+                    <img src="src/images/16.webp" alt="" class="rounded-lg cursor-pointer ">
+                </div>
+                <div>
+                    <img src="src/images/17.webp" alt="" class="rounded-lg cursor-pointer">
+                </div>
+                <div>
+                    <img src="src/images/18.webp" alt="" class="rounded-lg cursor-pointer">
+                </div>
+                <div>
+                    <img src="src/images/19.webp" alt="" class="rounded-lg cursor-pointer">
+                </div>
+                <div>
+                    <img src="src/images/20.webp" alt="" class="rounded-lg cursor-pointer">
+                </div>
+                <div>
+                    <img src="src/images/21.webp" alt="" class="rounded-lg cursor-pointer">
+                </div>
+            </div>
+
+            <h3 class="text-2xl font-semibold text-trendyol mb-4 mt-10">Beğendiğin Markaların İndirimli Ürünleri</h3>
+            <!-- The fixed scroll container with proper structure -->
+        <div class="w-full overflow-hidden ">
+            <div class="flex overflow-x-auto gap-4 pb-4 px-4 scrollbar-hide whitespace-nowrap touch-pan-x">
+                <!-- Each item wrapped in a flex-none div to maintain size -->
+                <div class="flex-none">
+                    <img src="src/images/22.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/23.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/24.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/25.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/26.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/27.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/28.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/29.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/30.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+                <div class="flex-none">
+                    <img src="src/images/31.webp" alt="" class="rounded-lg cursor-pointer h-[119px] w-auto">
+                </div>
+            </div>
+        </div>
+        </section>
+    </main>
+    <footer class="bg-[#F5F5F5] py-10 px-20 mt-10">
+        <div class="flex justify-between items-baseline">
+            <div class="flex flex-col gap-4 ">
+                <h4 class="text-2xl font-semibold text-bottom mb-4 cursor-pointer">Trendyol</h4>
+                <ul class="space-y-4 text-sm text-gray-700">
+                    <li>Biz Kimiz</li>
+                    <li>Kariyer</li>
+                    <li>Sürdürülebilirlik</li>
+                    <li>İletişim</li>
+                    <li>Trendyol'da Güvenlik</li>
+                    <li>Ürün Geri Çağırma</li>
+                  </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h4 class="text-2xl font-semibold text-bottom mb-4 cursor-pointer">Kampanyalar</h4>
+                <ul class="space-y-4 text-sm text-gray-700">
+                    <li>Kampanyalar</li>
+                    <li>Alışveriş Kredisi</li>
+                    <li>Elit Üyelik</li>
+                    <li>Hediye Fikirleri</li>
+                  </ul>
+            </div>
+            <div class="flex flex-col gap-4">
+                <h4 class="text-2xl font-semibold text-bottom mb-4 cursor-pointer">Satıcı</h4>
+                <ul class="space-y-4 text-sm text-gray-700">
+                    <li>Trendyol'da Satış Yap</li>
+    <li>Temel Kavramlar</li>
+    <li>Trendyol Akademi</li>
+  </ul>
+
+            </div>
+            <div class ="flex flex-col gap-4">
+                <h4 class="text-2xl font-semibold text-bottom mb-4 cursor-pointer">Yardım</h4>
+                <ul class="space-y-4 text-sm text-gray-700">
+                    <li>Sıkça Sorulan Sorular</li>
+                    <li>Canlı Yardım / Asistan</li>
+                    <li>Nasıl İade Edebilirim</li>
+                    <li>İşlem Rehberi</li>
+                  </ul>
+            </div>
+            <div class="flex flex-col gap-4 align-top">
+                <h4 class="text-2xl font-semibold text-bottom mb-4 cursor-pointer">Ülke Değiştir</h4>
+                <div class="px-6 pb-10 bg-gray-50">
+                    <div class="mb-6">
+                      <button class="flex items-center gap-2 border border-gray-300 px-4 py-2 rounded-full shadow-sm text-sm">
+                        Ülke Seç
+                        <span class="text-orange-500">›</span>
+                      </button>
+                    </div>
+                  
+                    <h2 class="text-lg font-semibold text-gray-900">Sosyal Medya</h2>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+
+.text-trendyol{
+  color: #231F20;
+}
+
+.img-trendyol{
+  width: 65px;
+
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
